@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9ce9b9e4;
+}
+.row{
+    color: hsl(187, 24%, 22%);
+    font-size: 16px;
+    background-color: #ffffff;
+    /* border: 2px solid brown; */
+    width: 50%;
+    border-radius: 10px;
+}
+/* .contact{
+    border: 2px solid blue;
+} */
+
+/* name section */
+.inp{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    display: flex;
+}
+/* .first, .last, .email-name{
+    border: 2px solid green;
+} */
+.inp1{
+    /* border: 2px solid orangered; */
+    padding-right: 10px;
+}
+
+/* .inp2{
+    border: 2px solid orangered;
+} */
+
+input{
+    width: 100%;
+    height: 7vh;
+    border-radius: 5px;
+    color: hsl(187, 24%, 22%);
+}
+
+.inp1 > input[type=text]{
+    padding-left: 10px;
+}
+.inp2 > input[type=text]{
+    padding-left: 10px;
+}
+
+/* email section */
+.email{
+    /* border: 2px solid yellow; */
+    width: 100%;
+}
+
+/* for the query section */
+.query{
+    width: 100%;
+}
+
+/* .support{
+    border: 2px solid red;
+} */
+.check{
+    border: 2px solid hsl(187, 24%, 22%);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+#check-req{
+    width: 20px;
+    border: 2px;
+}
+#check-enq{
+    width: 20px;
+    border: 2px;
+}
+
+/* message section */
+.messages{
+    width: 100%;
+}
+
+/* chekbox section */
+.consent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+/* .consent-messages{
+    border: 2px solid green;
+} */
+#checkbox{
+    width: 15px;
+}
+
+.error{
+    color: red;
+    font-size: 16px;
+}
