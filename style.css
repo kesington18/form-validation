@@ -66,6 +66,7 @@ input{
 /* for the query section */
 .query{
     width: 100%;
+    /* border: 3px solid green; */
 }
 
 /* .support{
@@ -93,6 +94,7 @@ input{
 
 /* chekbox section */
 .consent{
+    /* border: 3px solid green; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -101,10 +103,42 @@ input{
     border: 2px solid green;
 } */
 #checkbox{
+    /* border: 5px solid red; */
     width: 15px;
 }
 
 .error{
     color: red;
     font-size: 16px;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #contactform{
+        width: 80%;
+    }
+  }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+   #contactform{
+    width: 80%;
+   }
+}
+
+@media only screen and (max-width: 480px) {
+    #contactform{
+        width: 100%;
+    }
+    .check{
+        width: 50%;
+    }
+    .consent{
+        margin-block: none;
+    }
+    .consent-messages{
+        /* border: 3px solid blue; */
+        width: 90%;
+        padding: 0;
+        margin-left: 15px;
+        font-size: 16px;
+    }
 }
